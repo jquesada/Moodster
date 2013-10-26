@@ -45,6 +45,7 @@
 	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="assets/css/grid/480.css">
 
 	<!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="js/modernizr-2.5.3-min.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
 
@@ -57,7 +58,7 @@
             <header>
             	<div class="section group">
 					<div class="col span_1_of_3">
-						<img src="assets/img/logo.png" alt="logo" />
+						<a href="index.php"><img src="assets/img/logo.png" alt="logo" /></a>
 					</div>
 					<div class="col span_2_of_3">
 						<ul id="nav">
