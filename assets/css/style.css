@@ -16,3 +16,7 @@ font-size: 1.5em;
 font-weight: lighter !important;
 text-transform: uppercase;
 }
+
+iframe{
+	height:300px !important;
+}

@@ -4,9 +4,9 @@ include 'includes/header.php';
         
         <div id="maincontentcontainer">
         	<div id="maincontent">
-            	<div class="section group">
+            	<div class="section group" style="text-align:center;">
                 	<p>Please Select Mood</p>
-				<select id="mood">
+				<select id="mood" style="margin-bottom:10px;">
 					<option>Happy</option>
 					<option>Sad</option>
 					<option>Excited</option>
