@@ -14,10 +14,15 @@ curl_close($chTwo);
 
 $jsonResponse = json_decode($curlResponseTwo);
 
+for ($x=1;$x<10;$x++){
+
+$xVar = (string) $x;
+
 $randomTrack = rand(0, 99);
 
-$songToPlay = $jsonResponse->tracks[$randomTrack]->href;
+$songToPlay . $xVar = $jsonResponse->tracks[$randomTrack]->href;
 
-print '<iframe name="iframe" src="https://embed.spotify.com/?uri=' . $songToPlay . '" height="200" frameborder="0" allowtransparency="true"></iframe>';
+print '<iframe name="iframe" src="https://embed.spotify.com/?uri=' . $songToPlay . $xVar . '" height="200" frameborder="0" allowtransparency="true"></iframe><br /><br />';
 
+}
 ?>
