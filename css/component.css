@@ -132,7 +132,7 @@ p#description{
 }
 
 .cbp-spmenu a:hover {
-	background: #258ecd;
+	background: #dbeffa;
 }
 
 .cbp-spmenu a:active {
@@ -142,6 +142,12 @@ p#description{
 
 /* Orientation-dependent styles for the content of the menu */
 
+.cbp-spmenu-vertical a span img {
+	display: block;
+	width: 2.5em;
+	margin: 0 auto;
+	margin-bottom:0.2em;
+}
 .cbp-spmenu-vertical {
 	width: 240px;
 	height: 100%;
@@ -151,7 +157,7 @@ p#description{
 
 .cbp-spmenu-vertical a {
 	border-bottom: 1px solid #fff;
-	padding: 2em;
+	padding: 1.7em;
 }
 
 .cbp-spmenu-horizontal {

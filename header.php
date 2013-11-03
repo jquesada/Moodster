@@ -13,9 +13,9 @@
 	<body class="cbp-spmenu-push">
 		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="main-menu">
 			<a id="mainlogo" class="logo" href="index.php"><img src="img/moodster.gif" alt="logo" /></a>
-			<a href="music.php">music</a>
-			<a href="video.php">video</a>
-			<a href="image.php">images</a>
+			<a href="music.php"><span><img src="img/icon-music.png" alt="music" /></span>music</a>
+			<a href="video.php"><span><img src="img/icon-video.png" alt="video" /></span>video</a>
+			<a href="image.php"><span><img src="img/icon-image.png" alt="image" /></span>images</a>
 		</nav>
 		
 		<div class="container">
