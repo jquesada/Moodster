@@ -1,15 +1,11 @@
 <?php
-include 'includes/header.php';
+include 'header.php';
 ?>
-        
-        <div id="maincontentcontainer">
-        	<div id="maincontent">
-            	<div class="section group">
-                	video
+			<div class="main">
+				<h1>video</h1>
                 </div><!--section-->
-            </div><!--maincontent-->
-        </div><!--maincontentcontainer-->
-
+			</div><!--main-->
+		
 <?php
-include 'includes/footer.php';
+include 'footer.php';
 ?>

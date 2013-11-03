@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Moodster</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="cbp-spmenu-push">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="main-menu">
+			<a href="index.php"><img src="img/moodster.gif" alt="logo" /></a>
+			<a href="#">about</a>
+			<a href="#">music</a>
+			<a href="#">video</a>
+			<a href="#">images</a>
+		</nav>
+		
+		<div class="container">
+			<header class="clearfix">
+            	<section>
+                    <button id="showLeftPush">&#9776;</button>
+				</section>
+			</header>
+			<div class="main">
+				<h1>moodster</h1>
+                <div class="section group" style="text-align:center;">
+                	<p>Please Select Mood</p>
+                        <select id="mood" style="margin-bottom:10px;">
+                            <option>Happy</option>
+                            <option>Sad</option>
+                            <option>Excited</option>
+                            <option>Angry</option>
+                            <option>Relaxed</option>
+                        </select>
+				<div class="player"></div> 
+                </div><!--section-->
+			</div>
+		</div>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'main-menu' )
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+			}
+		</script>
+	</body>
+</html>
