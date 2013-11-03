@@ -258,11 +258,15 @@ p#description{
 	.cbp-spmenu-bottom {
 		bottom: -110px;
 	}
+	
+	.cbp-spmenu-vertical a{
+		padding: 1em;
+	}
 
 }
 
 @media screen and (max-height: 26.375em){
-
+	
 	.cbp-spmenu-vertical {
 		font-size: 90%;
 		width: 190px;
