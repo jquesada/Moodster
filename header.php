@@ -7,7 +7,9 @@
 		<title>Moodster</title>
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel='stylesheet' media='screen and (min-width: 481px) and (max-width: 768px)' href='css/medium.css' />
+		<link rel='stylesheet' media='screen and (min-width: 50px) and (max-width: 480px)' href='css/narrow.css' />
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body class="cbp-spmenu-push">
