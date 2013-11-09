@@ -1,5 +1,6 @@
 /* General Demo Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Radley);
 
 @font-face {
 	font-family: 'fontawesome';
@@ -12,6 +13,8 @@
 	font-style: normal;
 }
 
+
+
 body, html { font-size: 100%; 	padding: 0; margin: 0;overflow:hidden;}
 
 /* Reset */
@@ -23,6 +26,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;overflow:hidden;}
 	box-sizing: border-box;
 }
 
+img{max-width:100% !important;}
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before,
 .clearfix:after {
@@ -76,7 +80,7 @@ header > section button.disabled {
 
 .container{
 	height:60em;
-	background:url(../img/bg.jpg) no-repeat;
+	background:url(../img/bg.jpg) repeat;
 }
 
 .main,

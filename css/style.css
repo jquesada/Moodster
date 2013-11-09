@@ -242,6 +242,8 @@ p#description{
 	transition: all 0.3s ease;
 }
 
+p#quotes{font-family: 'Radley', serif; color:#333;}
+
 /* Example media queries */
 
 @media screen and (max-width: 55.1875em){
