@@ -5,8 +5,10 @@
 <script src="js/charJs.js"></script>
 <style>
 #imagesContainer img{
-width: 320px;
-height: 320px;
+max-width: 100%;
+height: auto;
+display: inline-block;
+padding: 1em;
 }
 
 select[name='moods']{
