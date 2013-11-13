@@ -1,10 +1,37 @@
 <?php
 	include ('includes/header.php');
 ?>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/charJs.js"></script>
+<style>
+#imagesContainer img{
+width: 320px;
+height: 320px;
+}
 
+select[name='moods']{
+margin: auto auto;
+display: block;
+padding: 5px;
+margin-bottom: 25px;
+background-color: skyblue;
+}
+
+</style>
 	<section class="main_content" role="main">
-	
-        IMAGE
+				<h1>Images</h1>
+				<select name="moods">
+				<option value="select">Select</option>
+				<option value="Excited">Excited</option>
+				<option value="Happy">Happy</option>
+				<option value="Inspired">Inspired</option>
+				<option value="Passionate">Passionate</option>
+				<option value="Colorful">Colorful</option>
+				<option value="Bright">Bright</option>
+				<option value="Flowers">Flowers</option>
+				</select>
+				<div id="imagesContainer"></div>
+						</div><!--section-->
 				
 		
 	</section>
