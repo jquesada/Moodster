@@ -36,7 +36,7 @@
 >>>>>>> 75ca064d2d9237e94121a8e5c1858d8b6e4f5f2e
             </div>
             <div>
-                <label for="mood" class="info">Type in any mood! <br/> Examples: (Happy/Sad/Angry/Depressed)
+                <label for="mood" class="info"> Choose a mood! <br/> Examples: (Happy/Sad/Angry/Depressed)
                 </label>
             </div>
 <<<<<<< HEAD
