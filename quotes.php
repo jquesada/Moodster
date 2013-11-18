@@ -14,10 +14,10 @@
  echo "Strive not to be a success, but rather to be of value. –Albert Einstein";
  break;
  case 4:
- echo "Two roads diverged in a wood, and I took the one less traveled by, and that has made all the difference.  –Robert Frost";
+ echo "Don't cry because it's over, smile because it happened  -Dr. Seuss";
  break;
  case 5:
- echo "The common question that gets asked in business is, ‘why?’ That’s a good question, but an equally valid question is, ‘why not?’ -Jeffrey Bezos";
+ echo "Be yourself; everyone else is already taken. -Oscar Wilde";
  break;
  case 6:
  echo "You miss 100% of the shots you don’t take. –Wayne Gretzky";
@@ -26,7 +26,7 @@
  echo "Every strike brings me closer to the next home run. –Babe Rut";
   break;
  case 8:
- echo "Definiteness of purpose is the starting point of all achievement. –W. Clement Stone";
+ echo "You only live once, but if you do it right, once is enough. -Mae West";
   break;
  case 9:
  echo "Life is what happens to you while you’re busy making other plans. –John Lennon";

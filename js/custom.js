@@ -5,10 +5,10 @@ $(document).ready(function() {
     	alert('moved');
     	}
     	else{
-    		$('nav[role=navigation]').css('width', '20%');
+    		$('nav[role=navigation]').css('width', '15em');
     		$('nav[role=navigation]').css('float', 'left');
     		$('section.main_content').css('float', 'left');
-    		$('section.main_content').css('width', '80%');
+    		$('section.main_content').css('width', '76%');
     		$('.container').css('margin', '0');
     	}
   	}
