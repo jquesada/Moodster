@@ -7,7 +7,7 @@ $(document).ready(function()
 		$.ajax
 		(
 			{
-			url: 'find_songs.php',
+			url: 'find_videos.php',
 			type: 'post',
 			data: 'mood=' + $('#mood').val(),
 			success: function(response) 

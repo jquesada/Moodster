@@ -7,7 +7,7 @@
        <!-- <img src="img/logo-main.png" id="logo" alt="logo" />-->
 		<img src="img/moodster_desktop.png" alt="logo" id="mainlogo" />
         <p id="description">
-                    	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</p>
+                    	Welcome to Moodster, the only APP that defines you! We here at Moodster help uplift your spirits, get you pumped for the day, calm you down, and above all, turn that frown upside down! Whether you use us for watching funny videos, listen to feel-good music, or just look up some positive images, we value your support and hope to keep on helping you find...you!</p>
 				
 		</div>
 	</section>
