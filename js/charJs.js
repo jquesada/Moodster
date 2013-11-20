@@ -25,13 +25,33 @@ dataType:'json'
 					var month = parseInt(dateArray[1]);
 					var day = parseInt(dateArray[2]);
 					
-				
-					$("#imagesContainer").append("<img class='thumbs' src='http://farm" + photo.farm + ".staticflickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_n.jpg' alt='" + photo.id + "' />");
-
+					if (i<5)
+					{
+						$("#imagesContainer").append("<img class='thumbs' src='http://farm" + photo.farm + ".staticflickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_n.jpg' alt='" + photo.id + "' />");
+					}
+					else
+					{
+					$("#imagesContainer").append("<img class='thumbs hideme' src='http://farm" + photo.farm + ".staticflickr.com/" + photo.server + "/" + photo.id + "_" + photo.secret + "_n.jpg' alt='" + photo.id + "' />");
+					}
 					
 				}//end for
 		});//end ajax 
 
 	});//end input change
+
+	//Fade In for images
+	$(window).on('scroll', function(){
+        $('.hideme').each( function(){
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            //alert (bottom_of_window);
+            if( bottom_of_window > bottom_of_object ){
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
 
 });//end doc ready
